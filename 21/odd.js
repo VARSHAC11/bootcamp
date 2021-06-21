@@ -16,7 +16,7 @@ inp.on("close", () => {
   //Your code goes here … replace the below line with your code logic 
 b=[]
 c=[]
-function odd(...input)
+var t=function (...input)
 {
     for(i=0;i<input.length;i++)
     {
@@ -32,7 +32,7 @@ function odd(...input)
     console.log(c);
 }
  
- odd(1,2,3,4,5)
+t(1,2,3,4,5)
 
   //end-here
 });
